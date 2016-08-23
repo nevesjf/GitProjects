@@ -1,0 +1,16 @@
+<anim ver="netanim-3.106" filetype="animation" >
+<node id="0" sysId="0" locX="0" locY="0" />
+<node id="1" sysId="0" locX="0" locY="0" />
+<nu p="c" t="0" id="0" r="255" g="0" b="0" />
+<nu p="c" t="0" id="1" r="255" g="0" b="0" />
+<link fromId="0" toId="1" fd="10.1.1.1~00:00:00:00:00:01" td="10.1.1.2~00:00:00:00:00:02" ld="" />
+<nu p="s" t="0" id="0" w="1" h="1" />
+<nu p="s" t="0" id="1" w="1" h="1" />
+<ncs ncId="0" n="RemainingEnergy" t="DOUBLE" />
+<nu p="p" t="0.25" id="0" x="1" y="2" />
+<nu p="p" t="0.25" id="1" x="2" y="3" />
+<p fId="0" fbTx="2" lbTx="2.002403199" tId="1" fbRx="2.002" lbRx="2.004403199" />
+<p fId="0" fbTx="2.002403199" lbTx="2.003359998" tId="1" fbRx="2.004403199" lbRx="2.005359998" />
+<p fId="1" fbTx="2.005359998" lbTx="2.007763197" tId="0" fbRx="2.007359998" lbRx="2.009763197" />
+<p fId="1" fbTx="2.007763197" lbTx="2.008719996" tId="0" fbRx="2.009763197" lbRx="2.010719996" />
+</anim>

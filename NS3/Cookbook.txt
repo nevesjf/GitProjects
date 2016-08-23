@@ -1,0 +1,23 @@
+Instalar OpenFlow no NS-3:
+
+- Bibliotecas necessárias:
+sudo apt-get install libboost-all-dev
+sudo apt-get install libxml2-dev
+biblioteca libdl
+
+- Passo a passo:
+1) ir até o diretorio onde esta o ns3
+2) executar comando: hg clone http://code.nsnam.org/openflow
+3) ir até o diretorio clonado: cd openflow
+4) executar dentro deste diretorio: ./waf configure
+				    ./waf build
+5) voltar um diretorio: cd ..
+6) executar: ./waf configure --enable-examples --enable-tests --with-openflow=openflow/
+7) Deverá agora aparecer: "NS-3 OpenFlow Integration     : enabled"
+8) por fim, execute: ./waf build
+
+- Sites:
+
+https://www.nsnam.org/docs/models/html/openflow-switch.html
+https://groups.google.com/forum/#!topic/ns-3-users/JeYH4KA5lsc
+https://groups.google.com/forum/#!topic/ns-3-users/UF2GT7iCBg4
